@@ -1,0 +1,16 @@
+body{
+    background: #333;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    top: 200px;
+    background: white;
+    transition-property: background;
+    transition-duration: 3s;
+}
+.box:hover{
+    background: red;
+}
